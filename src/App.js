@@ -1,15 +1,19 @@
 import './App.css';
 import Nav from './components/nav';
 import Header from './components/header';
-import Main from './components/main';
+import Specials from './components/Specials';
 import Footer from './components/footer';
+import Customersay from './components/CustomersSay';
+import Location from "./components/Location";
 
 function App() {
   return (
     <>
       <Nav/>
       <Header/>
-      <Main/>
+      <Specials/>
+      <Customersay/>
+      <Location/>
       <Footer/>
     </>
   );

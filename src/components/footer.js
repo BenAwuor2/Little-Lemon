@@ -4,9 +4,9 @@ import "../static/styles/footer.css";
 
 function Footer () {
     return (
-        <footer>       
-            <nav>
-            <img src={restaurant} alt="img"></img>
+        <footer>    
+            <img src={restaurant} alt="img"></img>   
+            <div className="nav">
                 <h1>Navigation</h1>
                 <ul>
                     <li><a href="https://example.com">Home</a></li>
@@ -16,25 +16,25 @@ function Footer () {
                     <li><a href="https://example3.com">Order Online</a></li>
                     <li><a href="https://example3.com">Login</a></li>
                 </ul>
-            </nav>
+            </div>
 
-            <nav>
+            <div className="nav">
                 <h1>Conacts</h1>
                 <ul>
                     <li><a href="https://example.com">Email</a></li>
                     <li><a href="https://example2.com">Telephone</a></li>
                     <li><a href="https://example3.com">Fax</a></li>
                 </ul>
-            </nav>
+            </div>
 
-            <nav>
+            <div className="nav">
                 <h1>Social links</h1>
                 <ul>
                     <li><a href="https://example.com">Youtube</a></li>
                     <li><a href="https://example2.com">Twitter</a></li>
                     <li><a href="https://example3.com">Facebook</a></li>
                 </ul>
-            </nav>
+            </div>
             
             
         </footer>

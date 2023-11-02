@@ -1,11 +1,32 @@
-/* nav {
-    width: 1440px;
-    height: 190px;
-    flex-shrink: 0;
-    background: #D9D9D9;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+nav.navbar{
+    top: 12px;
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+    display: flex; /* Make the image and list items align horizontally */
+    /* width: 100%; */
+    justify-content: space-between; /* Create space between the logo and links */
     align-items: center;
-    align-content: space-between;
-} */
+    padding: 10px 20px; /*Add padding for spacing */
+    margin: 10px 50px;
+    /* gap: 20px; */
+}
+.navbar img {
+    height: 40px; /* Set the height of the logo */
+    width: auto; /* Maintain the aspect ratio of the image */
+    align-self: center;
+    margin-left: 35px;
+  }
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.nav-list li {
+    margin-right: 45px;
+}
+.nav-list a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #000000; /* Set link text color */
+    font-size: large;
+    font-weight: 700;
+  }

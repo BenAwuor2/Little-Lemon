@@ -1,0 +1,31 @@
+footer {
+    padding: 20px 40px;
+    background: rgb(37, 36, 36);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    margin: 0 40px;
+    width: 160px;
+    height: 200px;
+}
+.nav {
+    margin-left:0 ;
+    color: white;
+    padding: 10px 80px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    color: white;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
